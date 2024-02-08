@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "team1": "FC Barcelona",
+      "team2": "Real Mad CF",
+      "team1Logo": "flag1",
+      "team2Logo": "flag2",
+      "teamOneScore": "1",
+      "teamTwoScore": "3",
+      "timeRemaining": 34
+    },
+    {
+      "id": 2,
+      "team1": "Manchester United",
+      "team2": "Liverpool FC",
+      "team1Logo": "flag3",
+      "team2Logo": "flag4",
+      "teamOneScore": "2",
+      "teamTwoScore": "2",
+      "timeRemaining":  12
+    },
+    {
+      "id": 3,
+      "team1": "Bayern Munich",
+      "team2": "Borussia FC",
+      "team1Logo": "flag3",
+      "team2Logo": "1",
+      "teamOneScore": "4",
+      "teamTwoScore": "1",
+      "timeRemaining":  72
+    },
+    {
+      "id": 4,
+      "team1": "Chelsea FC",
+      "team2": "MH. City",
+      "team1Logo": "flag3",
+      "team2Logo": "flag4",
+      "teamOneScore": "0",
+      "teamTwoScore": "1",
+      "timeRemaining":  58
+    },
+    {
+      "id": 5,
+      "team1": "Juventus FC",
+      "team2": "AC Milan",
+      "team1Logo": "flag1",
+      "team2Logo": "flag2",
+      "teamOneScore": "2",
+      "teamTwoScore": "0",
+      "timeRemaining":  83
+    },
+    {
+      "id": 6,
+      "team1": "Paris Saint",
+      "team2": "Olympique de  ",
+      "team1Logo": "flag3",
+      "team2Logo": "flag1",
+      "teamOneScore": "3",
+      "teamTwoScore": "2",
+      "timeRemaining":  90
+    }
+  ]
+}

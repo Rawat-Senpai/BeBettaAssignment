@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/primaryColor"
+        android:paddingTop="20dp">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:backgroundTint="#333333"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                android:id="@+id/homeFragment"
+                style="@style/homeScreenIcon"
+                android:layout_weight="1"
+                android:src="@drawable/ic_home"
+
+                />
+
+            <ImageView
+                android:id="@+id/exploreFragment"
+                style="@style/homeScreenIcon"
+                android:layout_weight="1"
+                android:src="@drawable/ic_explore" />
+
+            <ImageView
+                android:id="@+id/writeFragment"
+                style="@style/homeScreenIcon"
+                android:layout_weight="1"
+                android:src="@drawable/ic_write" />
+
+            <ImageView
+                android:id="@+id/likeFragment"
+                style="@style/homeScreenIcon"
+                android:layout_weight="1"
+
+                android:src="@drawable/ic_like" />
+
+            <ImageView
+                android:id="@+id/accountFragment"
+                style="@style/homeScreenIcon"
+                android:layout_weight="1"
+                android:src="@drawable/ic_account" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

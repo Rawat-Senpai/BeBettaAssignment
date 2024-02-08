@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "team1": "India",
+      "team2": "Australia",
+      "team1Logo": "flag1",
+      "team2Logo": "flag4",
+      "teamOneScore": "285/7",
+      "teamTwoScore": "289/4",
+      "timeRemaining": 0
+    },
+    {
+      "id": 2,
+      "team1": "England",
+      "team2": "South Africa",
+      "team1Logo": "flag3",
+      "team2Logo": "flag1",
+      "teamOneScore": "320/5",
+      "teamTwoScore": "312/9",
+      "timeRemaining": 0
+    },
+    {
+      "id": 3,
+      "team1": "New Zealand",
+      "team2": "Pakistan",
+      "team1Logo": "flag4",
+      "team2Logo": "flag2",
+      "teamOneScore": "275/6",
+      "teamTwoScore": "270/8",
+      "timeRemaining": 0
+    },
+    {
+      "id": 4,
+      "team1": "West Indies",
+      "team2": "Sri Lanka",
+      "team1Logo": "flag1",
+      "team2Logo": "flag3",
+      "teamOneScore": "245/9",
+      "teamTwoScore": "250/6",
+      "timeRemaining": 0
+    },
+    {
+      "id": 5,
+      "team1": "Bangladesh",
+      "team2": "Afghanistan",
+      "team1Logo": "flag1",
+      "team2Logo": "flag4",
+      "teamOneScore": "312/4",
+      "teamTwoScore": "280/8",
+      "timeRemaining": 0
+    },
+    {
+      "id": 6,
+      "team1": "Zimbabwe",
+      "team2": "Ireland",
+      "team1Logo": "flag1",
+      "team2Logo": "flag4",
+      "teamOneScore": "280/8",
+      "teamTwoScore": "260/9",
+      "timeRemaining": 0
+    }
+  ]
+}
